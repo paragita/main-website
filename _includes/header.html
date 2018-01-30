@@ -1,0 +1,29 @@
+<!-- Header -->
+<header id="header"{% if page.id == "index" %} class="alt"{% endif %}>
+        <h1 id="logo"><a href="{{ site.url }}">PSM UI <span>PARAGITA</span></a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="current"><a href="{{ site.url }}">Welcome</a></li>
+                <li class="submenu">
+                    <a href="#">Menu</a>
+                    <ul>
+                        <li><a href="#">Profil</a>
+                        <ul>
+                            <li><a href="{{ site.url }}{% link profil/sejarah.md %}">Sejarah</a></li>
+                            <li><a href="#">Pelatih</a>
+                            <ul>
+                                <li><a href="{{ site.url }}{% link profil/adji.md %}">Adji Kasyono</a></li>
+                                <li><a href="{{ site.url }}{% link profil/aning.md %}">Aning Katamsi</a></li>
+                                <li><a href="{{ site.url }}{% link profil/mona.md %}">Ramona Unsulangi</a></li>
+                                <li><a href="{{ site.url }}{% link profil/nyonyon.md %}">Agus Yuwono</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li><a href="{{ site.url }}{% link contact.md %}">Kontak</a></li>
+                    </ul>
+                </li>
+                <li style="opacity:0;"><a href="" class="button special"></a></li>
+            </ul>
+        </nav>
+    </header>

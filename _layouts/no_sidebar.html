@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<!-- Main -->
+<article id="main">
+
+        <header class="special container">
+            <span class="icon fa-mobile"></span>
+            <h2>{{ page.heading }}</h2>
+            <p>{{ page.subheading}}</p>
+        </header>
+
+        <!-- One -->
+            <section class="wrapper style4 container">
+
+                <!-- Content -->
+                    <div class="content">
+                        <section>
+                            <a class="image featured"><img class="{{ page.feature-image-style }}" src="{{ page.feature-image }}" alt="" /></a>
+                            <header>
+                                <h3>{{ page.text-title }}</h3>
+                            </header>
+                            {{ content }}
+                        </section>
+                    </div>
+
+            </section>
+
+            {% include comments.html %}
+
+    </article>

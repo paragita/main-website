@@ -1,0 +1,180 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+title: Home
+id: index
+---
+<!-- Banner -->
+<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>Selamat Datang</h2>
+						</header>
+						
+						<p>Paragita, yang berarti suara yang megah atau agung,
+							<br /> adalah sebuah organisasi paduan suara mahasiswa
+							<br /> di <a href="http://ui.ac.id" target="_blank">Universitas Indonesia</a
+								><br /> yang berdiri sejak tahun 1983.</p>
+						<footer>
+							<ul class="buttons vertical">
+								<li><a href="{% link profil/sejarah.md %}" class="button fit scrolly">Lebih lanjut...</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+{% include_relative next-event.html %}
+
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row 50%">
+								<div class="4u 12u(narrower)">
+
+									<header>
+										<h2>About <strong>things</strong> we do.</h2>
+									</header>
+									<p>Some of our statistics.</p>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button">Find Out More</a></li>
+										</ul>
+									</footer>
+
+								</div>
+								<div class="8u 12u(narrower) important(narrower)">
+
+										<div style="font-size:3.25em;padding-bottom:0.7em;display:block;">
+												<div style="float:left; width:1.5em">
+													<span class="icon fa-graduation-cap"></span>
+												</div>
+												<div>
+													<span class="icon"> 34 tahun</span>
+												</div>
+											</div>
+											<div style="font-size:3.25em;padding-bottom:0.7em;display:block;">
+												<div style="float:left; width:1.5em;">
+													<span class="icon fa-music"></span>
+												</div>
+												<div>
+													<span class="icon"> xxx penyanyi</span>
+												</div>
+											</div>
+											<div style="font-size:3.25em;padding-bottom:0.7em;display:block;">
+												<div style="float:left; width:1.5em;">
+													<span class="icon fa-briefcase"></span>
+												</div>
+												<div style="font-size:0.7em;">
+													<span class="icon" >250&#43; kerja sama profesional</span>
+												</div>
+											</div>
+											<div style="font-size:3.25em;padding-bottom:0.7em;display:block;">
+												<div style="float:left; width:1.5em;">
+													<span class="icon fa-trophy"></span>
+												</div>
+												<div>
+													<span class="icon">xx penghargaan</span>
+												</div>
+											</div>
+
+								</div>
+							</div>
+						</section>
+
+						{% include comments.html %}
+
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+									<h2>Tim <strong>pelatih</strong></h2>
+							</header>
+
+							<div class="row">
+								<div class="6u 12u(narrower)">
+
+									<section>
+											<a class="image featured"><img src="images/aning.jpg" alt="" /></a>
+										<header>
+												<h3>Aning Katamsi</h3>
+										</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+								<div class="6u 12u(narrower)">
+
+									<section>
+											<a class="image featured"><img src="images/mona.jpg" alt="" /></a>
+											<header>
+												<h3>Ramona Unsulangi</h3>
+											</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="6u 12u(narrower)">
+
+									<section>
+											<a class="image featured"><img src="images/adji.jpg" alt="" /></a>
+											<header>
+												<h3>Barkah Adji Kasyono</h3>
+											</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+								<div class="6u 12u(narrower)">
+
+									<section>
+											<a class="image featured"><img src="images/nyonyon.jpg" alt="" /></a>
+											<header>
+												<h3>Agus Yuwono</h3>
+											</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+							</div>
+
+							<footer class="major">
+								<ul class="buttons">
+									<li><a href="#" class="button">See More</a></li>
+								</ul>
+							</footer>
+
+						</section>
+
+				</article>
+
+			<!-- CTA -->
+				<!-- <section id="cta">
+
+					<header>
+						<h2>Ready to do <strong>something</strong>?</h2>
+						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#" class="button special">Take My Money</a></li>
+							<li><a href="#" class="button">LOL Wut</a></li>
+						</ul>
+					</footer>
+
+				</section> -->

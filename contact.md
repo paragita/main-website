@@ -13,7 +13,7 @@ id: contact
 </tr>
 <tr>
 <td>Phone</td>
-<td>Marsha Putri +62 858 8099 7409</td>
+  <td><em>Awaiting update</em></td>
 </tr>
 <tr>
 <td>Email</td>

@@ -21,3 +21,5 @@ id: contact
 </tr>
 </tbody>
 </table>
+
+<a class="twitter-timeline" href="https://twitter.com/ParagitaChoir?ref_src=twsrc%5Etfw">Tweets by ParagitaChoir</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
